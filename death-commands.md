@@ -83,6 +83,7 @@ In the case of player entities, an additional transition must be added to the se
 You can also use the `minecraft:on_death` component in your `entity.json` file in the Behavior Pack, which is a fairly easy way to accomplish a command on death.
 
 You first add it to your components and make it run an event on self;
+<CodeHeader>BP/entities/entity.json</CodeHeader>
 ```
 "minecraft:on_death" : {
           "event" : "wiki:on_death",
